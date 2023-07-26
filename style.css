@@ -30,8 +30,8 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  width: 385px;
-  max-height: 812px;
+  width: 400px;
+  min-height: 512px;
   background-color: var(--dark-grey);
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -49,14 +49,15 @@ main {
   background-image: url(./image/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 600px;
+  height: 400px;
   padding-left: 2rem;
   position: relative;
+  transform: translateY(150px);
 }
 
 .text {
   position: absolute;
-  bottom: 20rem;
+  bottom: 10rem;
 }
 
 span {
@@ -77,9 +78,8 @@ span {
 .box {
   display: flex;
   align-items: center;
-  margin-left: 2rem;
+  padding-left: 2rem;
   justify-content: space-between;
-  transform: translateY(-12rem);
 }
 
 #weather {
