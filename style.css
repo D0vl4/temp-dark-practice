@@ -24,14 +24,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 
 main {
   display: flex;
   flex-direction: column;
   width: 400px;
-  min-height: 512px;
   background-color: var(--dark-grey);
   -webkit-user-select: none;
   -moz-user-select: none;
