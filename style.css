@@ -50,7 +50,7 @@ main {
   background-image: url(./image/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 380px;
   padding-left: 2rem;
   position: relative;
   transform: translateY(150px);
