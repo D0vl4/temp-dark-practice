@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Weather app - Dark</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="lottie">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player
+          src="https://lottie.host/75e13f6c-318a-4e04-8801-133f08bafd28/wbr8n9lw5V.json"
+          background="transparent"
+          speed="1"
+          style="width: 230px; height: 230px"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+      <div class="background">
+        <div class="text">
+          <div id="time"></div>
+          <div id="date"></div>
+          <span>Belgrade, Serbia</span>
+        </div>
+      </div>
+      <div class="box">
+        <div id="weather"></div>
+        <button id="ok">OK</button>
+      </div>
+      <script src="./Script.js" async defer></script>
+    </main>
+  </body>
+</html>
